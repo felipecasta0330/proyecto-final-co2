@@ -37,7 +37,10 @@ Los notebooks se ejecutan en orden: el 01 produce los archivos limpios que usan 
 
 ## Resultados principales
 
-Se completarán al terminar los tres notebooks.
+- **Datos limpios:** 196 países entre 1950 y 2025. Se separaron los agregados regionales, se excluyeron 23 microterritorios con per cápita distorsionado y se trataron 14 ceros que eran registros vacíos.
+- **Exploración:** las emisiones mundiales llegaron a 38,6 Gt en 2024, pero el promedio por persona (4,7 t) está estancado desde los años setenta. Los países de ingreso alto emiten unas **35 veces más por persona** que los de ingreso bajo.
+- **Modelo:** regresión lineal log–log entre el PIB per cápita y las emisiones per cápita (2022, 163 países). Elasticidad **1,04** (IC 95 %: 0,96–1,12) y **R² de prueba = 0,77** (validación cruzada: 0,81). El ingreso explica cerca del 80 % de las diferencias entre países.
+- **Interpretación:** con el mismo ingreso, Suiza, Suecia, Francia y el Reino Unido emiten entre 0,27 y 0,56 veces lo esperado, y Canadá, Australia y Estados Unidos entre 1,2 y 1,45 veces. Esto confirma lo que plantea el artículo: la prosperidad impulsa las emisiones, pero la matriz energética marca una gran diferencia. **Colombia** emite 0,67 veces lo esperado para su ingreso.
 
 ## Cómo ejecutar
 
